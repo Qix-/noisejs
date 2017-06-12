@@ -14,7 +14,7 @@
  *
  */
 
-this.Noise = function(seed){
+module.exports = function Noise(seed){
   seed = seed || 0;
 
   var module = {};
